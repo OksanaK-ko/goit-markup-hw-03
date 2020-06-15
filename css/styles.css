@@ -38,6 +38,9 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+.section {
+    padding-bottom: 94px;
+}
 
 /* logo */
 .site-nav, .contact {
@@ -128,11 +131,13 @@ body {
 /* hero */
 .section-hero {
    text-align: center;
+   background-color: var(--footer-background-color);
 }
 
 .hero {
-   margin-bottom: 30px; 
-   margin-top: 0;
+    padding-top: 200px;
+    padding-bottom: 280px;
+    margin-top: 0;
    
    color: var(--title-accent-color);
    background-color: var(--footer-background-color);
@@ -150,7 +155,7 @@ body {
     padding: 10px 32px;
     min-width: 200px;
     border: transparent;
-    margin-bottom: 294px;
+    margin-bottom: 200px;
 
     color: var(--title-accent-color);
     background-color: var(--accent-color);
@@ -201,9 +206,13 @@ body {
 .picture {
     display: block;
     margin-bottom: 55px;
-    text-align: center; 
-}
-
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    
+    background: #F5F4FA;
+    border-radius: 4px;
+}    
 .feature .title {
     margin-bottom: 10px;
 }
@@ -243,7 +252,7 @@ body {
 /* team */
 .section .team {
     padding:186px 215px 94px;
- }
+}
 
  .team .item {
     width: calc((100% - 90px)/ 4 );
@@ -324,7 +333,6 @@ body {
 /* footer */
 .footer {
     background-color: var(--footer-background-color);
-    height: 253px;
  }
 
 .secondary-accent {
@@ -353,6 +361,8 @@ body {
     color: var(--title-accent-color); 
     font-style: normal;
     margin-right: 69px;
+    padding-top: 84px;
+    padding-bottom: 88px;
 }
 
 .footer .us {
@@ -371,7 +381,15 @@ body {
     text-transform: uppercase;
 }
 
-.developed {
+.copyright {
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 18px;
+    padding-bottom: 21px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
     color:var(--secondary-text-color);  
     font-size: 12px;
     line-height: 2;
@@ -471,9 +489,4 @@ body {
  .join .title {
      margin-bottom: 20px;
  }
- .developed {
-     display: flex;
-     justify-content: center;
-     margin-top: 0px;
-     margin-bottom: 21px;
- }
+
