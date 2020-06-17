@@ -26,6 +26,12 @@ body {
   letter-spacing: 0.03rem;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 .list {
   list-style: none;
   padding: 0;
@@ -172,9 +178,9 @@ body {
 
 /* section */
 .section-title {
-  margin-top: 0;
-  margin-bottom: 50px;
-
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -198,7 +204,6 @@ body {
 
 .content {
   display: flex;
-  margin-bottom: 94px;
 }
 
 .feature .content {
@@ -210,13 +215,12 @@ body {
 }
 
 .picture {
-  display: block;
   margin-bottom: 55px;
   text-align: center;
   padding-top: 25px;
   padding-bottom: 25px;
 
-  background: #f5f4fa;
+  background-color: #f5f4fa;
   border-radius: 4px;
 }
 .feature .title {
@@ -255,14 +259,25 @@ body {
 }
 
 /* team */
-.section .team {
-  padding: 186px 215px 94px;
+.team {
+  background-color: #f5f4fa;
+}
+
+.team .section-title,
+.clients .section-title {
+  padding-top: 94px;
 }
 
 .team .item {
   width: calc((100% - 90px) / 4);
 }
 
+.team-content {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
+  border-radius: 0px 0px 4px 4px;
+}
 .team .item:not(:last-child) {
   margin-right: 30px;
 }
@@ -465,6 +480,7 @@ body {
   width: calc((100% - 60px) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
+  display: block;
 }
 
 .portfolio .item:nth-child(3n) {
@@ -475,7 +491,15 @@ body {
   margin-bottom: 0;
 }
 
+.item-content {
+  display: block;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+  padding: 20px 24px;
+}
+
 .example {
+  display: block;
   text-decoration: none;
 }
 
