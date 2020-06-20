@@ -26,6 +26,17 @@ body {
   letter-spacing: 0.03rem;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -142,7 +153,7 @@ img {
 .section-hero {
   text-align: center;
   background-color: var(--footer-background-color);
-}
+  }
 
 .hero {
   padding-top: 200px;
@@ -204,6 +215,7 @@ img {
 
 .content {
   display: flex;
+  padding-top: 119px;
 }
 
 .feature .content {
