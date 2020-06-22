@@ -153,12 +153,13 @@ img {
 .section-hero {
   text-align: center;
   background-color: var(--footer-background-color);
+  margin-bottom: 94px;
   }
 
 .hero {
   padding-top: 200px;
-  padding-bottom: 280px;
   margin-top: 0;
+  margin-bottom: 30px;
 
   color: var(--title-accent-color);
   background-color: var(--footer-background-color);
@@ -176,7 +177,7 @@ img {
   padding: 10px 32px;
   min-width: 200px;
   border: transparent;
-  margin-bottom: 200px;
+  
 
   color: var(--title-accent-color);
   background-color: var(--accent-color);
@@ -187,11 +188,14 @@ img {
   text-decoration: none;
 }
 
+.order {
+  padding-bottom: 200px;
+}
+
 /* section */
 .section-title {
   margin-top: 0px;
-  margin-bottom: 0px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -215,7 +219,7 @@ img {
 
 .content {
   display: flex;
-  padding-top: 119px;
+  /* padding-top: 50px; */
 }
 
 .feature .content {
@@ -467,17 +471,20 @@ img {
 .filters {
   display: flex;
   justify-content: center;
-  margin-top: 93px;
-}
+  }
 
 .filters .nav-button:not(:last-child) {
   margin-right: 8px;
 }
 
-.nav-button:hover,
-.nav-button:focus {
+.nav-button .button:hover,
+.nav-button .button:focus {
   color: var(--title-accent-color);
   background-color: var(--accent-color);
+}
+
+.portfolio-main {
+  padding-top: 94px;
 }
 
 .section-name {
